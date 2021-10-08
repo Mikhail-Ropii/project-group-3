@@ -19,18 +19,18 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-.list {
+li {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 
-.link {
+a {
     text-decoration: none;
 }
 
-.btn {
+button {
     cursor: pointer;
     border: 0;
 }
