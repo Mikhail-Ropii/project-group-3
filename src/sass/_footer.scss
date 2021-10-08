@@ -1,0 +1,43 @@
+.footer-second-title {
+    margin-top: 17px;
+
+    font-family: Titan One;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+
+    color: var(--second-title-color);
+}
+
+.footer-title {
+    font-family: Titan One;
+    font-size: 34px;
+    line-height: 1.48;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--main-corp-color);
+}
+
+.social {
+    display: flex;
+    margin-right: 0px;
+}
+
+.social__item {
+    &:not(:last-child) {
+        margin-right: 28px;
+    }
+}
+
+.social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    background-color: #FEA5BB;
+}
