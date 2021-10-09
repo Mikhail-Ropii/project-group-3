@@ -60,12 +60,12 @@
   &__title {
     margin-bottom: 20px;
     font-family: 'Titan One', sans-serif;
-    font-weight: normal;
+
     font-size: 36px;
     line-height: 1.14;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #d41443;
+    color: var(--main-corp-color);
 
     @media screen and(min-width:768px) {
       font-size: 48px;
@@ -129,7 +129,7 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 1.7;
-    color: #000000;
+    color: var(--text-dark);
 
     @media screen and(min-width:768px) {
       font-size: 14px;
