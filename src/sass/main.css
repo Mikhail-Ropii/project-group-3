@@ -38,7 +38,7 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
-li {
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -90,6 +90,93 @@ button {
   --second-text-color: #907E82;
 }
 
+
+.footer {
+  background-color: #FFF5F6;
+}
+
+.footer-title {
+  max-width: 234px;
+  margin-bottom: 43px;
+}
+
+.footer-title__second-text {
+  margin-top: 17px;
+  font-family: Titan One;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+}
+
+.footer-title__text {
+  font-family: Titan One;
+  font-size: 34px;
+  line-height: 1.48;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--main-corp-color);
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-bottom: 46px;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #FEA5BB;
+}
+
+.number {
+  text-align: right;
+  margin-bottom: 43px;
+}
+
+.number__text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.86;
+  text-align: right;
+  color: var(--text-dark);
+}
+
+.number__tel {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.86;
+  text-align: right;
+  color: var(--main-corp-color);
+}
+
+.border-bottom {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100vw;
+  height: 1px;
+  background-color: #E1E1E1;
+=======
 .advantages {
   padding-bottom: 95px;
   background-color: #fff5f6;
