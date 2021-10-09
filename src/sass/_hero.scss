@@ -1,0 +1,145 @@
+a {
+  text-decoration: none;
+}
+.header-hero-section {
+  background: #ffb8ca;
+}
+.page-header {
+  padding-top: 6px;
+}
+.container {
+  width: 100%;
+  padding: 0 20px 0 20px;
+}
+.main-nav {
+  // padding-top: 6px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (min-width: 480px) {
+    margin-right: 30px;
+  }
+}
+.logo-header {
+  // margin-top: 6px;
+  // margin-bottom: 6px;
+  @media screen and (min-width: 480px) {
+  }
+}
+.main-nav__list {
+  display: none;
+}
+.buy-now-button {
+  display: none;
+}
+.list {
+}
+
+.is-hidden {
+}
+.menu-open,
+.menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.menu-open {
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.burger {
+  width: 20px;
+  height: 1px;
+  display: block;
+  position: relative;
+  background-color: #d41443;
+}
+
+.burger::before,
+.burger::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #d41443;
+  left: 0;
+}
+
+.burger::before {
+  bottom: 6px;
+}
+.burger::after {
+  top: 6px;
+}
+
+.menu-close {
+  position: absolute;
+  right: 19px;
+  top: 21px;
+}
+
+.cross {
+  width: 20px;
+  height: 1px;
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+}
+
+.cross::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #ffffff;
+  transform: rotate(-90deg);
+}
+
+.mob-menu__buy-now-button {
+  min-width: 209px;
+  height: 44px;
+  margin-left: 21px;
+  background: #ffffff;
+  border-radius: 22px;
+  border: none;
+  margin-bottom: 19px;
+}
+.cross {
+}
+.mob-menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #e17992;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  z-index: 99;
+  padding-top: 60px;
+}
+
+.mob-menu.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mob-menu__item {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  border-top: 1px solid #e18298;
+  border-bottom: 1px solid #e18298;
+}
