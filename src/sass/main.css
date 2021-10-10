@@ -333,7 +333,7 @@ button {
   width: 280px;
   height: 308px;
   padding: 43px 50px 20px;
-  margin-bottom: 18px;
+  margin-bottom: 33px;
 }
 
 @media screen and (min-width: 768px) {
@@ -341,7 +341,7 @@ button {
     width: 620px;
     height: 164px;
     padding: 47px 36px 28px 40px;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
   }
 }
 
