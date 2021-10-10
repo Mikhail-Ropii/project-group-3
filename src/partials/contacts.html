@@ -1,4 +1,4 @@
-<section id="contacts" class="section section--background">
+<section id="contacts" class="contacts contacts--background">
     <div class="container">
         <h2 class="visually-hidden">Contacts</h2>
         <ul class="contacts-card">
@@ -10,10 +10,12 @@
                 </div>
                 <ul class="schedule__list">
                     <li class="schedule__item">
-                        <p class="schedule__text-day">Monday - Friday</p>
+                        <p class="schedule__text">Monday - Friday</p>
+                        <p class="schedule__text--time">06:00 AM - 10:00 PM</p>
                     </li>
                     <li class="schedule__item">
-                        <p class="schedule__text-time">06:00 AM - 10:00 PM</p>
+                        <p class="schedule__text">Saturday - Sunday</p>
+                        <p class="schedule__text--time">08:00 AM - 16:00 PM</p>
                     </li>
                 </ul>
                 <ul class="contacts__list">
@@ -26,17 +28,19 @@
                 </ul>
             </li>
             <li class="contacts-card__item">
-                <p class="contacts-card__representations">FOOD TRUCK</p>
+                <p class="contacts-card__representations contacts-card__representations--color">FOOD TRUCK</p>
                 <div class="contacts-card__sity">
                     <h3 class="contacts-card__sity-title">Los Angeles</h3>
                     <p class="contacts-card__sity-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
                 </div>
                 <ul class="schedule__list">
                     <li class="schedule__item">
-                        <p class="schedule__text-day">Monday - Friday</p>
+                        <p class="schedule__text">Monday - Friday</p>
+                        <p class="schedule__text--time">06:00 AM - 10:00 PM</p>
                     </li>
                     <li class="schedule__item">
-                        <p class="schedule__text-time">06:00 AM - 10:00 PM</p>
+                        <p class="schedule__text">Saturday - Sunday</p>
+                        <p class="schedule__text--time">08:00 AM - 16:00 PM</p>
                     </li>
                 </ul>
                 <ul class="contacts__list">
@@ -56,10 +60,12 @@
                 </div>
                 <ul class="schedule__list">
                     <li class="schedule__item">
-                        <p class="schedule__text-day">Monday - Friday</p>
+                        <p class="schedule__text">Monday - Friday</p>
+                        <p class="schedule__text--time">06:00 AM - 10:00 PM</p>
                     </li>
                     <li class="schedule__item">
-                        <p class="schedule__text-time">06:00 AM - 10:00 PM</p>
+                        <p class="schedule__text">Saturday - Sunday</p>
+                        <p class="schedule__text--time">08:00 AM - 16:00 PM</p>
                     </li>
                 </ul>
                 <ul class="contacts__list">
@@ -72,7 +78,19 @@
                 </ul>
             </li>
         </ul>
-        <button class="contacts-btn contacts-btn--locations" type="button" data-modal-open>Our Locations</button>
-        <button class="contacts-btn contacts-btn--franchise" type="button" data-modal-open>Franchise</button>
+        <div class="contacts__buttons-position">
+            <button class="contacts__btn contacts__btn--locations" type="button" data-modal-open>
+                Our Locations
+                <svg class="icon-arrow-right">
+                    <use href="./images/icon-sprite.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+            <button class="contacts__btn contacts__btn--franchise" type="button" data-modal-open>
+                Franchise
+                <svg class="icon-arrow-right">
+                    <use href="./images/icon-sprite.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+        </div>
     </div>
 </section>
