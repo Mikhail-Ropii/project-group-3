@@ -154,6 +154,11 @@
     margin: 0px;
     margin-bottom: 33px;
   }
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+    transition: 250ms var(--animation-function);
+  }
 }
 
 .about-btn__text {
