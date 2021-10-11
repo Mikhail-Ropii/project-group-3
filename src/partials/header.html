@@ -3,35 +3,110 @@
     <nav class="container main-nav">
       <a href="" class="logo-header">
         <picture>
-          <source
-            srcset="./images/logo.png 1x, ./images/logo@2x.png 2x"
-            media="(min-width:320px)"
-          />
-          <img class="logo" src="./images/logo.png" alt="логотип сайта" width="199" height="50" />
+          <source srcset="./images/hero/logo.png 1x, ./images/hero/logo@2x.png 2x" media="(min-width:320px)" />
+          <img class="logo" src="./images/hero/logo.png" alt="логотип сайта" width="199" height="50" />
         </picture>
       </a>
       <ul class="main-nav__list list">
-        <li class="main-nav__item"><a href="#home">Home</a></li>
+        <li class="main-nav__item active"><a href="#home">Home</a></li>
         <li class="main-nav__item"><a href="#about">About us</a></li>
         <li class="main-nav__item"><a href="#how">How it’s made?</a></li>
         <li class="main-nav__item"><a href="#our">Our products</a></li>
         <li class="main-nav__item"><a href="#contact">Contact</a></li>
       </ul>
-      <button type="button" class="buy-now-button">Buy now</button>
       <button type="button" class="menu-open"><span class="burger"></span></button>
+      <button type="button" class="buy-now-button buy">
+        Buy now
+        <svg class="button-arrow" width="6" height="10">
+          <use href="./images/hero/symbol-defs.svg#buttonarrow"></use>
+        </svg>
+      </button>
     </nav>
-    <div class="mob-menu is-hidden">
-      <div class="containera">
-        <button type="button" class="menu-close"><span class="cross"></span></button>
-        <button type="button" class="mob-menu__buy-now-button">Buy now</button>
-        <ul class="mob-menu-list list">
-          <li class="mob-menu__item"><a href="#home">Home</a></li>
-          <li class="mob-menu__item"><a href="#about">About us</a></li>
-          <li class="mob-menu__item"><a href="#how">How it’s made?</a></li>
-          <li class="mob-menu__item"><a href="#our">Our products</a></li>
-          <li class="mob-menu__item"><a href="#contact">Contact</a></li>
-        </ul>
+    <div class="menu-backdrop is-hidden">
+      <div class="menu">
+        <div class="menu__area">
+          <button type="button" class="menu-close"><span class="cross"></span></button>
+          <button type="button" class="mob-menu__buy-now-button buys">
+            Buy now
+            <svg class="button-arrow" width="6" height="10">
+              <use href="./images/hero/symbol-defs.svg#buttonarrow"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu__item active"><a href="#home">Home</a></li>
+            <li class="mob-menu__item"><a href="#about">About us</a></li>
+            <li class="mob-menu__item"><a href="#how">How it’s made?</a></li>
+            <li class="mob-menu__item"><a href="#our">Our products</a></li>
+            <li class="mob-menu__item"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
+  <section class="hero">
+    <div class="container hero__bg">
+      <div class="contents">
+        <!-- <div class="bg">
+          <div class="bgpicture">
+            <img class="elipse-full" src="./images/hero/ellipse2.svg" alt="круг полный">
+            <img class="elipse-mob" src="./images/hero/ellipse1.svg" alt="круг">
+            <picture class="icecream">
+              <source srcset="./images/hero/icecream-desc.png 1x, ./images/hero/icecream-desc@2x.png 2x"
+                media="(min-width: 1280px)" />
+              <source srcset="./images/hero/icecream-tab.png 1x, ./images/hero/icecream-tab@2x.png 2x"
+                media="(min-width: 768px)" />
+              <source srcset="./images/hero/icecream-mob.png 1x, ./images/hero/icecream-mob@2x.png 2x"
+                media="(min-width: 320px)" />
+              <img src="./images/hero/icecream-mob.png" alt="морозиво">
+            </picture>
+          </div>
+        </div> -->
+        <div class="hero-content">
+          <div class="text">
+            <h1 class="hero__title">ice cream made with <span class="hero__passion">passion</span></h1>
+            <ul class="hero__link-box list">
+              <li class="hero__link products"><a href="">Products</a></li>
+              <li class="hero__link made"><a href="">How it’s made?</a></li>
+            </ul>
+            <!-- <span class="hero__link products"><a href="">Products</a></span>
+            <span class="hero__link made"><a href="">How it’s made?</a></span> -->
+          </div>
+          <div class="text__objects">
+            <span class="ring">16</span>
+            <p class="cafes">cafes</p>
+            <span class="ring">23</span>
+            <p class="truck">food trucks</p>
+          </div>
+
+          <div class="">
+            <picture>
+              <source srcset="./images/hero/bioeco-desc.png 1x, ./images/hero/bioeco-desc@2x.png 2x"
+                media="(min-width: 1280px)" />
+              <source srcset="./images/hero/bioeco-tab.png 1x, ./images/hero/bioeco-tab@2x.png 2x"
+                media="(min-width: 768px)" />
+
+              <img class="bioeco" src="./images/hero/bioeco-desc.png" alt="глечик з молоком" />
+            </picture>
+          </div>
+          <div class="details">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            </p>
+            <picture>
+              <source srcset="./images/hero/arrow.png 1x, ./images/hero/arrow@2x.png 2x" media="(min-width: 768px)" />
+              <img class="arrow" src="./images/hero/arrow.png" alt="глечик з молоком" />
+            </picture>
+          </div>
+          <div class="">
+            <picture>
+              <source srcset="./images/hero/tasty-desc.png 1x, ./images/hero/tasty-desc@2x.png 2x"
+                media="(min-width: 1280px)" />
+              <source srcset="./images/hero/tasty-mob.png 1x, ./images/hero/tasty-mob@2x.png 2x"
+                media="(min-width: 768px)" />
+              <img class="tasty" src="./images/hero/tasty-desc.png" alt="смачне морозиво" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </section>
