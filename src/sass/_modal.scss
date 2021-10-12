@@ -1,4 +1,4 @@
-.backdrop {
+.backdrop1 {
   position: fixed;
   top: 0;
   left: 0;
@@ -114,11 +114,11 @@
   line-height: calc(21 / 16);
   color: #d41443;
 }
-.backdrop.is-hidden {
+.backdrop1.is-hidden {
   visibility: visible;
   opacity: 0;
   pointer-events: none;
 }
-.backdrop.is-hidden .modal {
+.backdrop1.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.1);
 }
