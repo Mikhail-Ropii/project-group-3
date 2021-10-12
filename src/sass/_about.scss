@@ -156,8 +156,7 @@
   }
   &:hover,
   &:focus {
-    background-color: #ecebeb;
-    transition: 250ms var(--animation-function);
+    transition: background-color 250ms var(--animation-function);
   }
 }
 
