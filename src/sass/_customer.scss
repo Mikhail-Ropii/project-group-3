@@ -33,12 +33,14 @@
   padding: 43px 50px 20px;
   margin-bottom: 33px;
   @media screen and (min-width: 768px) {
+    background-color: transparent;
     width: 620px;
     height: 164px;
     padding: 47px 36px 28px 40px;
     margin-bottom: 24px;
   }
   @media screen and (min-width: 1280px) {
+    background-color: #fafafa;
     width: 926px;
     height: 138px;
     padding: 47px 54px 32px 50px;
