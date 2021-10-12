@@ -150,13 +150,14 @@
   border-radius: 22px;
   display: flex;
   margin: 0 auto;
+  transition: 250ms var(--animation-function);
   @media screen and (min-width: 768px) {
     margin: 0px;
     margin-bottom: 33px;
   }
   &:hover,
   &:focus {
-    transition: background-color 250ms var(--animation-function);
+    background-color: #ecebeb;
   }
 }
 
