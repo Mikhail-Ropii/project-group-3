@@ -1,9 +1,9 @@
 .hero {
   padding-top: 137px;
-  padding-bottom: 160px;
-  // height: 440px;
+  padding-bottom: 0px;
   @media screen and (min-width: 768px) {
     padding-top: 15px;
+    padding-bottom: 0;
   }
   @media screen and (min-width: 1280px) {
     padding-top: 84px;
@@ -86,20 +86,13 @@
     }
   }
 }
-.bgpicture {
+.contents {
   @media screen and (min-width: 768px) {
     position: relative;
   }
 }
-.contents {
-  // @media screen and (min-width: 768px) {
-  //   position: relative;
-  // }
-}
 .hero__link-box {
   display: flex;
-  // flex-wrap: wrap;
-  // justify-content: center;
   align-items: center;
   height: 24px;
   @media screen and (min-width: 1280px) {
@@ -114,12 +107,9 @@
 }
 
 .text {
-  // position: absolute;
   z-index: 3;
   @media screen and (min-width: 768px) {
-    // position: static;
     margin-right: 487px;
-    // margin-bottom: 19px;
   }
   @media screen and (min-width: 1280px) {
     margin-right: 699px;
@@ -138,21 +128,40 @@
 .icecream {
   position: absolute;
   right: 32px;
-  top: 92px;
+  bottom: 397px;
   z-index: 2;
   @media screen and (min-width: 768px) {
     position: absolute;
-    right: 247px;
-    top: 31px;
+    right: 213px;
+    bottom: 0px;
+  }
+  @media screen and (min-width: 1280px) {
+    position: absolute;
+    bottom: 0px;
+    right: 335px;
   }
 }
-.elipse-full {
+.elipse-tab {
   display: none;
   @media screen and (min-width: 768px) {
     display: block;
     position: absolute;
-    top: -31px;
-    right: 137px;
+    bottom: 46px;
+    right: 103px;
+    z-index: 1;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+
+.elipse-desc {
+  display: none;
+  @media screen and (min-width: 1280px) {
+    display: block;
+    position: absolute;
+    bottom: 75px;
+    right: 152px;
     z-index: 1;
   }
 }
