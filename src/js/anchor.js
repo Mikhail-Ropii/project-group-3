@@ -3,30 +3,26 @@
 
 	function init() {
 		//Links 
-		let anchor1Link  = d.getElementById('anchor1Link');
-		let anchor2Link  = d.getElementById('anchor2Link');
-		let anchor3Link  = d.getElementById('anchor3Link');
-		let anchor4Link  = d.getElementById('anchor4Link');
-		let anchor1Link2 = d.getElementById('anchor1Link2');
-		let anchor2Link2 = d.getElementById('anchor2Link2');
-		let anchor3Link2 = d.getElementById('anchor3Link2');
-		let anchor4Link2 = d.getElementById('anchor4Link2');
+		let anchor1Link  = d.getElementById('about-link');
+		let anchor2Link  = d.getElementById('how-link');
+		let anchor3Link  = d.getElementById('our-link');
+		let anchor4Link = d.getElementById('contact-link');
+	
 		//Anchors
-		let anchor1      = d.getElementById('anchor1');
-		let anchor2      = d.getElementById('anchor2');
-		let anchor3      = d.getElementById('anchor3');
-		let anchor4      = d.getElementById('anchor4');
+		let anchor1      = d.getElementById('about');
+		let anchor2      = d.getElementById('how');
+		let anchor3      = d.getElementById('our');
+		let anchor4      = d.getElementById('contact');
 		
 		anchor1Link.addEventListener('click', (e) => { scrollTo(anchor1, e) }, false);
-		anchor1Link2.addEventListener('click', (e) => { scrollTo(anchor1, e) }, false);
 		anchor2Link.addEventListener('click', (e) => { scrollTo(anchor2, e) }, false);
-		anchor2Link2.addEventListener('click', (e) => { scrollTo(anchor2, e) }, false);
+		
 		// anchor2Link.onclick = function() { scrollToSimple(document.documentElement, 500, 3000); }
 		// anchor2Link2.onclick = function() { scrollToSimple(document.documentElement, 0, 3000); }
 		anchor3Link.addEventListener('click', (e) => { scrollTo(anchor3, e) }, false);
-		anchor3Link2.addEventListener('click', (e) => { scrollTo(anchor3, e) }, false);
+		
 		anchor4Link.addEventListener('click', (e) => { scrollTo(anchor4.offsetTop, e) }, false);
-		anchor4Link2.addEventListener('click', (e) => { scrollTo(anchor4.offsetTop, e) }, false);
+		
 		
 		console.log(anchor2); //DEBUG
 		console.log('anchor1: '+scrollTopValue(anchor1)+' / '+offsetTopValue(anchor1)); //DEBUG
