@@ -27,7 +27,9 @@
     background-image: url("../images/gallery/gallery-768.jpg");
   }
   @media screen and (min-width: 1280px) {
-    background-image: url("../images/gallery/gallery-1280.jpg");}
+    background-image: url("../images/gallery/gallery-1280.jpg");
+width: 100%;
+}
 }
 .gallery-photo {
   width: 100%;
