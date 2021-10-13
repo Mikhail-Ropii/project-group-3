@@ -23,6 +23,15 @@
 .gallery-pics {
   background-repeat: no-repeat;
   text-align: center;
+  @media screen and(max-width:767px) {
+    background-image: url('../images/gallery/gallery-360.jpg');
+      }
+  @media screen and(min-width:768px) {
+    background-image: url('../images/gallery/gallery-768.jpg');
+      }
+  @media screen and(min-width:1280px) {
+background-image: url('../images/gallery/gallery-1280.jpg');
+  }
 }
 .gallery-photo {
   width: 100%;
