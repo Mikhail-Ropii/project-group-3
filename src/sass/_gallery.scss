@@ -4,7 +4,7 @@
   padding-top: 48px;
   padding-bottom: 0px;
   margin: 0 0 83px 0;
-  background-image: linear-gradient(to bottom, #fff5f6 40%, white 60%);
+  background-image: linear-gradient(to bottom, #fff5f6 0% 53%, white 53% 100%);
   @media screen and (min-width: 768px) {
     padding-top: 70px;
     padding-bottom: 0px;
@@ -12,6 +12,7 @@
   @media screen and (min-width: 1280px) {
     padding-top: 69px;
     padding-bottom: 0px;
+    background-image: linear-gradient(to bottom, #fff5f6 0% 48%, white 48% 100%);
   }
 }
 .gallery .container {
@@ -21,8 +22,6 @@
 .gallery-pics {
   background-repeat: no-repeat;
   text-align: center;
-  width: 100%;
-  height: 100%;
 }
 .gallery-photo {
   width: 100%;
