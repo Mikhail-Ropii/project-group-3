@@ -149,10 +149,17 @@
   background-color: #ffffff;
   border-radius: 22px;
   display: flex;
-  margin: 0 auto;
+  // margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms var(--animation-function);
   @media screen and (min-width: 768px) {
     margin: 0px;
     margin-bottom: 33px;
+  }
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
   }
 }
 
@@ -161,14 +168,14 @@
   font-weight: bold;
   font-size: 14px;
   line-height: calc(18 / 14);
-  margin-top: 12px;
-  margin-left: 40px;
+  // margin-top: 12px;
+  // margin-left: 40px;
   color: #d41443;
 }
 
 .about-btn__vector {
-  margin-top: 17px;
   margin-left: 15px;
+  margin-top: 2px;
 }
 
 @media screen and (min-width: 768px) {
