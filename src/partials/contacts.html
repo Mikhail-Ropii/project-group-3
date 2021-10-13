@@ -28,6 +28,21 @@
             <a href="mailto:noreply@envato.com" class="contacts__link">noreply@envato.com</a>
           </li>
         </ul>
+
+        <div class="contacts__buttons-position">
+            <button class="contacts__btn" type="button" data-modal-locations-open>
+                Our Locations
+                <svg class="icon-arrow-right">
+                    <use href="./images/icon-sprite.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+            <button class="contacts__btn contacts__btn--franchise" type="button" data-modal-franchise-open>
+                Franchise
+                <svg class="icon-arrow-right">
+                    <use href="./images/icon-sprite.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+
       </li>
       <li class="contacts-card__item" data-aos="fade-up" data-aos-duration="250">
         <p class="contacts-card__representations contacts-card__representations--color">
@@ -38,6 +53,7 @@
           <p class="contacts-card__sity-text">
             Fusce ut velit laoreet, tempus arcu molestie vulputate
           </p>
+
         </div>
         <ul class="schedule__list">
           <li class="schedule__item">
@@ -112,5 +128,31 @@
         </svg>
       </button>
     </div>
-  </div>
+
 </section>
+<div class="backdrop is-hidden" data-modal-locations>
+    <div class="backdrop__modal-locations">
+        <h2 class="backdrop__title">Our Locations</h2>
+        <iframe class="backdrop__maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2798987517!2d-74.25987051245862!3d40.69767006636456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1634035119351!5m2!1sru!2sua"
+            allowfullscreen="" loading="lazy">
+        </iframe>
+        <button class="modal-close" type="button" data-modal-locations-close>
+            <svg class="modal-close__icon">
+                <use href="./images/icon-sprite.svg#icon-close"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+<div class="backdrop is-hidden" data-modal-franchise>
+    <div class="backdrop__modal-franchise">
+        <h2 class="backdrop__title">Franchise</h2>
+        <p class="backdrop__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto quos quas eligendi fugiat quia a, quae in veritatis, illum aliquid praesentium provident deserunt maiores facilis 
+            accusantium necessitatibus qui! Eligendi.</p>
+        <button class="modal-close" type="button" data-modal-franchise-close>
+            <svg class="modal-close__icon">
+                <use href="./images/icon-sprite.svg#icon-close"></use>
+            </svg>
+        </button>
+    </div>
+</div>
