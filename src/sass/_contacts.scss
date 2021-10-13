@@ -1,9 +1,9 @@
 .contacts {
   padding: 43px 0 56px 0;
-  background-color: linear-gradient(var(--text-light) 127px, #fff5f6 127px);
+  background: linear-gradient(var(--text-light) 127px, #fff5f6 127px);
   @media screen and (min-width: 768px) {
     padding: 60px 0 79px 0;
-    background-color: linear-gradient(var(--text-light) 100px, #fff5f6 100px);
+    background: linear-gradient(var(--text-light) 100px, #fff5f6 100px);
   }
   @media screen and (min-width: 1280px) {
     padding: 66px 0 83px 0;
@@ -20,6 +20,7 @@
 .contacts-card {
   @media screen and (min-width: 768px) {
     display: flex;
+    justify-content: center;
   }
 }
 .contacts-card__item {
@@ -38,6 +39,7 @@
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   padding: 43px 21px 43px 20px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 .contacts-card__representations {
   display: inline-block;
