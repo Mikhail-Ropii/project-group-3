@@ -1,4 +1,5 @@
-.backdrop1 {
+.backdrop1,
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,7 +29,8 @@
     min-height: 300px;
   }
 }
-.close-button {
+.close-button,
+.close-button1 {
   position: absolute;
   right: 8px;
   top: 8px;
